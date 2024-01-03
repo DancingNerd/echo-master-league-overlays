@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Player Lists</title>
 
-<head>
-	<meta charset="utf-8">
-	<title>Player Lists</title>
-
-	<style>
+    <style>
       #event_log_container {
         display: flex;
         flex-direction: column-reverse;
@@ -25,8 +24,8 @@
         font-weight: 900;
         font-family: Inconsolata, monospace;
         width: fit-content;
-        animation: movein .5s;
-        transition: opacity .5s;
+        animation: movein 0.5s;
+        transition: opacity 0.5s;
         font-size: 1.1em;
       }
 
@@ -45,25 +44,23 @@
           padding: 0.6em;
         }
 
-
         100% {
           opacity: 1;
         }
       }
-	</style>
+    </style>
 
-	<link rel="stylesheet" href="css/shared.css">
-	<link rel="stylesheet" href="/css/player_lists.css">
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/player_lists.css" />
 
-	<script defer src="/js/util.js"></script>
-	<script defer src="/js/spark_websocket.js"></script>
-	<script defer src="js/full_overlay.js"></script>
-</head>
+    <script defer src="./js/util.js"></script>
+    <script defer src="./js/spark_websocket.js"></script>
+    <script defer src="./js/full_overlay.js"></script>
+  </head>
 
-<body>
-<div class="container_free">
-	<div id="event_log_container"></div>
-</div>
-</body>
-
+  <body>
+    <div class="container_free">
+      <div id="event_log_container"></div>
+    </div>
+  </body>
 </html>
