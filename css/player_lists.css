@@ -57,6 +57,7 @@
 
 
 #player_lists > .player_list > div.stunned > div:first-child {
+    color: #f00;
     opacity: .5;
 }
 
@@ -71,9 +72,7 @@
 }
 
 #player_lists > .player_list > div.possession > div:last-child {
-    border: .1em solid #fffa;
-    background-color: #000a;
-}
+    background: linear-gradient(-90deg, #2478d0 0%, #ff9627 100%);}
 
 #player_lists > .player_list.orange > div > div:first-child {
     background: linear-gradient(90deg, #ff9627aa 0%, #bd7a2400 100%);
