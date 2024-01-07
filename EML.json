@@ -87,8 +87,8 @@
             }
         ]
     },
-    "current_scene": "04_Live_Match",
-    "current_program_scene": "04_Live_Match",
+    "current_scene": "01_Stream_Start",
+    "current_program_scene": "01_Stream_Start",
     "scene_order": [
         {
             "name": "01_Stream_Start"
@@ -1565,7 +1565,7 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 187,
+                "cx": 217,
                 "cy": 1061,
                 "id_counter": 0,
                 "items": [
@@ -1761,11 +1761,11 @@
                         "name": "Powered by ignite",
                         "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1055.5189208984375,
-                            "y": 1047.052978515625
+                            "x": 1045.2099609375,
+                            "y": 1110.1993408203125
                         },
                         "scale": {
                             "x": 0.54992318153381348,
@@ -1799,7 +1799,7 @@
                         "name": "Ignite Overlay main use",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -2646,7 +2646,7 @@
                         "name": "Videos [Stream Start]",
                         "source_uuid": "ccfca7c6-9da1-4944-a8a1-2c733d4ae30a",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 106.0,
@@ -4317,7 +4317,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 212.85296630859375,
-                            "y": 914.4769287109375
+                            "y": 912.4769287109375
                         },
                         "scale": {
                             "x": 0.86413693428039551,
@@ -4355,7 +4355,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1029.89404296875,
-                            "y": 920.6851806640625
+                            "y": 918.6851806640625
                         },
                         "scale": {
                             "x": 0.84716135263442993,
@@ -4389,11 +4389,11 @@
                         "name": "Powered by ignite",
                         "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 819.10931396484375,
-                            "y": 788.48919677734375
+                            "x": 811.10931396484375,
+                            "y": 835.48931884765625
                         },
                         "scale": {
                             "x": 0.42675426602363586,
@@ -4427,11 +4427,11 @@
                         "name": "Ignite Overlay main use",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": -24.0
+                            "y": -26.0
                         },
                         "scale": {
                             "x": 1.0007493495941162,
@@ -4469,7 +4469,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": -24.0
+                            "y": -26.0
                         },
                         "scale": {
                             "x": 0.77602523565292358,
@@ -7225,8 +7225,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
+                "looping": true,
                 "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/videos/Echo Pregame Montage.mp4",
-                "looping": true
+                "undo_uuid": "3d041813-b24e-45fd-9cbf-83e3d5f8b0ad"
             },
             "mixers": 255,
             "sync": 0,
@@ -7518,7 +7519,7 @@
                     "size": 256,
                     "style": "Regular"
                 },
-                "text": "2:34"
+                "text": "soon"
             },
             "mixers": 0,
             "sync": 0,
