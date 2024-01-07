@@ -1,0 +1,1 @@
+Remove-Item C:\WirelessJacks\scores\*.txt
