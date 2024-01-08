@@ -11,7 +11,7 @@ Tweaked versions of the Echo Arena Spark overlays, updated for use with echo-rel
 
 Steps to install:
 
-1. Click on `Code` in the top left and select `Download Zip`
+1. Click on `Code` in the top left and select `Download Zip`.
 2. Once downloaded copy the `echo-master-league-overlays-main` folder from the Zip file to your C:\ path ensuring that the path to `assets` is `C:\echo-master-league-overlays-main\assets`
 3. Install OBS 30.0.2 and Spark 2.6.15
 4. Install fonts and files in the `install_this` folder
