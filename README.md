@@ -11,10 +11,12 @@ Tweaked versions of the Echo Arena Spark overlays, updated for use with echo-rel
 
 Steps to install:
 
-1. Install OBS 30.0.2 and Spark 2.6.15
-2. Install fonts and files in the `install_this` folder
-3. In OBS go to Tools > Scripts and click the + sign and add the UPDeck_2-1-20.lua from the .\echo-master-league-overlays\scripts folder.
-4. In the settings for the UpDeck script browse and set the replay path to <your path>\echo-master-league-overlays\assets\videos\replays where <your path> is where you extracted the files from GitHub to.
-5. For the message queue path set the path to C:\Users\<username>\AppData\Roaming\UPDeck replacing <username> for the Windows user you're logged in as.
-6. In OBS go to Tools > Scripts and click the + sign and add the countdown.lua from the .\echo-master-league-overlays\scripts folder.
-7. Change the 'Soon [tm]' value to just 'Soon'
+1. Click on `Code` in the top left and select `Download Zip`
+2. Once downloaded copy the `echo-master-league-overlays-main` folder from the Zip file to your C:\ path ensuring that the path to `assets` is `C:\echo-master-league-overlays-main\assets`
+3. Install OBS 30.0.2 and Spark 2.6.15
+4. Install fonts and files in the `install_this` folder
+5. In OBS go to Tools > Scripts and click the + sign and add the UPDeck_2-1-20.lua from the C:\echo-master-league-overlays-main\scripts folder.
+6. In the settings for the UpDeck script browse and set the replay path to C:\echo-master-league-overlays-main\assets\videos\replays.
+7. For the message queue path set the path to C:\Users\<username>\AppData\Roaming\UPDeck replacing <username> for the Windows user you're logged in as.
+8. In OBS go to Tools > Scripts and click the + sign and add the countdown.lua from the C:\echo-master-league-overlays-main\scripts folder.
+9. Change the 'Soon [tm]' value to just 'Soon'
