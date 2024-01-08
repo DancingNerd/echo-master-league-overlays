@@ -20,3 +20,4 @@ Steps to install:
 7. For the message queue path set the path to C:\Users\<username>\AppData\Roaming\UPDeck replacing <username> for the Windows user you're logged in as.
 8. In OBS go to Tools > Scripts and click the + sign and add the countdown.lua from the C:\echo-master-league-overlays-main\scripts folder.
 9. Change the 'Soon [tm]' value to just 'Soon'
+10. Import the EML.json from the C:\echo-master-league-overlays-main folder and if prompted locate any files from the missing files prompt.
