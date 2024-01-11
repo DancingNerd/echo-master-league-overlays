@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 503316482,
+        "prev_ver": 486604803,
         "name": "Desktop Audio",
         "uuid": "98c7364a-7bf3-4eb0-a8fa-e9fab178cfe0",
         "id": "wasapi_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 503316482,
+        "prev_ver": 486604803,
         "name": "Mic/Aux",
         "uuid": "adbb0b4c-993b-42f8-ae2e-84053103eb76",
         "id": "wasapi_input_capture",
@@ -62,7 +62,7 @@
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 503316482,
+                "prev_ver": 486604803,
                 "name": "Noise Suppression",
                 "uuid": "0ea45b75-a3f9-4ef4-8cf5-59ff97e035a3",
                 "id": "noise_suppress_filter",
@@ -87,8 +87,8 @@
             }
         ]
     },
-    "current_scene": "04_Live_Match",
-    "current_program_scene": "04_Live_Match",
+    "current_scene": "01_Stream_Start",
+    "current_program_scene": "01_Stream_Start",
     "scene_order": [
         {
             "name": "01_Stream_Start"
@@ -112,7 +112,7 @@
     "name": "EML",
     "groups": [
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Browser Sources [End of round Scene]",
             "uuid": "333b3e38-7c11-4c14-bdc6-635980c182c6",
             "id": "group",
@@ -175,8 +175,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.29": [],
-                "libobs.hide_scene_item.29": []
+                "libobs.show_scene_item.Chat [Pregame Scene]": [],
+                "libobs.hide_scene_item.Chat [Pregame Scene]": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -184,7 +184,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "After Round Overlay Group",
             "uuid": "aee81f3c-b707-4c2d-bdda-849e1bbfa6b1",
             "id": "group",
@@ -361,14 +361,14 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.40": [],
-                "libobs.hide_scene_item.40": [],
-                "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": []
+                "libobs.show_scene_item.Background blue": [],
+                "libobs.hide_scene_item.Background blue": [],
+                "libobs.show_scene_item.After Round Overlay": [],
+                "libobs.hide_scene_item.After Round Overlay": [],
+                "libobs.show_scene_item.Scroll Text (Information)": [],
+                "libobs.hide_scene_item.Scroll Text (Information)": [],
+                "libobs.show_scene_item.Bottom lil guy": [],
+                "libobs.hide_scene_item.Bottom lil guy": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -376,7 +376,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Background Layer",
             "uuid": "193fb5f4-c3dd-49a7-802b-12f12f12f348",
             "id": "group",
@@ -439,8 +439,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.Image Slide Show": [],
+                "libobs.hide_scene_item.Image Slide Show": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -448,7 +448,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Stream Start Overlay Group",
             "uuid": "c987f175-8946-4515-868f-39b4e6bedf49",
             "id": "group",
@@ -625,14 +625,14 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.53": [],
-                "libobs.hide_scene_item.53": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": []
+                "libobs.show_scene_item.Background blue": [],
+                "libobs.hide_scene_item.Background blue": [],
+                "libobs.show_scene_item.Strem start main": [],
+                "libobs.hide_scene_item.Strem start main": [],
+                "libobs.show_scene_item.Scroll Text (Information)": [],
+                "libobs.hide_scene_item.Scroll Text (Information)": [],
+                "libobs.show_scene_item.Bottom lil guy": [],
+                "libobs.hide_scene_item.Bottom lil guy": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -640,7 +640,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Casters Group",
             "uuid": "0565ecd0-5bf6-44ed-8058-a1d8afe036fb",
             "id": "group",
@@ -817,14 +817,14 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.33": [],
-                "libobs.hide_scene_item.33": [],
-                "libobs.show_scene_item.32": [],
-                "libobs.hide_scene_item.32": [],
-                "libobs.show_scene_item.31": [],
-                "libobs.hide_scene_item.31": [],
-                "libobs.show_scene_item.30": [],
-                "libobs.hide_scene_item.30": []
+                "libobs.show_scene_item.Caster 4 PFP": [],
+                "libobs.hide_scene_item.Caster 4 PFP": [],
+                "libobs.show_scene_item.Caster 3 PFP": [],
+                "libobs.hide_scene_item.Caster 3 PFP": [],
+                "libobs.show_scene_item.Caster 2 PFP": [],
+                "libobs.hide_scene_item.Caster 2 PFP": [],
+                "libobs.show_scene_item.Caster 1 PFP": [],
+                "libobs.hide_scene_item.Caster 1 PFP": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -832,7 +832,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Text Group [Stream Start]",
             "uuid": "493b4030-dfe7-436c-95da-c6ec54b29ce2",
             "id": "group",
@@ -862,7 +862,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Videos [Stream Start]",
             "uuid": "ccfca7c6-9da1-4944-a8a1-2c733d4ae30a",
             "id": "group",
@@ -925,8 +925,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": []
+                "libobs.show_scene_item.Pregame Montage": [],
+                "libobs.hide_scene_item.Pregame Montage": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -934,7 +934,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Logos [Stream Start]",
             "uuid": "f2bca330-c9cb-483c-8217-4cbbe4d7d43e",
             "id": "group",
@@ -997,8 +997,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.51": [],
-                "libobs.hide_scene_item.51": []
+                "libobs.show_scene_item.Main logo": [],
+                "libobs.hide_scene_item.Main logo": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1006,7 +1006,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Soundtrack [Stream Start]",
             "uuid": "49f6de94-ed41-4c20-98b6-132e4af5a359",
             "id": "group",
@@ -1069,8 +1069,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.65": [],
-                "libobs.hide_scene_item.65": []
+                "libobs.show_scene_item.L1nkOne Intro": [],
+                "libobs.hide_scene_item.L1nkOne Intro": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1078,7 +1078,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Pregame Scene Overlay Group",
             "uuid": "2abcbe37-5000-4927-bf62-f5bc0a337974",
             "id": "group",
@@ -1255,14 +1255,14 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.56": [],
-                "libobs.hide_scene_item.56": [],
-                "libobs.show_scene_item.35": [],
-                "libobs.hide_scene_item.35": [],
-                "libobs.show_scene_item.33": [],
-                "libobs.hide_scene_item.33": [],
-                "libobs.show_scene_item.52": [],
-                "libobs.hide_scene_item.52": []
+                "libobs.show_scene_item.Background blue": [],
+                "libobs.hide_scene_item.Background blue": [],
+                "libobs.show_scene_item.Main Background": [],
+                "libobs.hide_scene_item.Main Background": [],
+                "libobs.show_scene_item.Scroll Text (Information)": [],
+                "libobs.hide_scene_item.Scroll Text (Information)": [],
+                "libobs.show_scene_item.Logo": [],
+                "libobs.hide_scene_item.Logo": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1270,15 +1270,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Text Group [Pregame Scene]",
             "uuid": "77062356-c8e8-4ea4-a9d9-f4c426823b68",
             "id": "group",
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1480,
-                "cy": 828,
+                "cx": 80,
+                "cy": 66,
                 "id_counter": 0,
                 "items": [
                     {
@@ -1333,8 +1333,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": []
+                "libobs.show_scene_item.Match Region": [],
+                "libobs.hide_scene_item.Match Region": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1342,7 +1342,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Logos [Pregame Scene]",
             "uuid": "e5c5d517-edd8-4769-adb7-9729399f7d6d",
             "id": "group",
@@ -1405,8 +1405,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.44": [],
-                "libobs.hide_scene_item.44": []
+                "libobs.show_scene_item.Logos Slideshow [Pregame Scene]": [],
+                "libobs.hide_scene_item.Logos Slideshow [Pregame Scene]": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1414,7 +1414,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Soundtrack [Pregame Scene]",
             "uuid": "6b2485ab-3a87-41b6-97b8-3b199997a713",
             "id": "group",
@@ -1477,8 +1477,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.50": [],
-                "libobs.hide_scene_item.50": []
+                "libobs.show_scene_item.Music": [],
+                "libobs.hide_scene_item.Music": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1486,7 +1486,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Round Scores",
             "uuid": "78ab6dd9-85c8-4cd5-b422-ba10a737a281",
             "id": "group",
@@ -1549,8 +1549,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.34": [],
-                "libobs.hide_scene_item.34": []
+                "libobs.show_scene_item.Round scores": [],
+                "libobs.hide_scene_item.Round scores": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1558,14 +1558,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Timer and Region",
             "uuid": "a03df972-c7fc-4901-87cc-6745d786132a",
             "id": "group",
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 187,
+                "cx": 217,
                 "cy": 1061,
                 "id_counter": 0,
                 "items": [
@@ -1659,10 +1659,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.54": [],
-                "libobs.hide_scene_item.54": [],
-                "libobs.show_scene_item.55": [],
-                "libobs.hide_scene_item.55": []
+                "libobs.show_scene_item.Timer": [],
+                "libobs.hide_scene_item.Timer": [],
+                "libobs.show_scene_item.Region": [],
+                "libobs.hide_scene_item.Region": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1670,7 +1670,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Ignite overlay",
             "uuid": "00ee6527-63ee-4ffa-917e-98196902d1b5",
             "id": "group",
@@ -1761,11 +1761,11 @@
                         "name": "Powered by ignite",
                         "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1055.5189208984375,
-                            "y": 1047.052978515625
+                            "x": 1045.2099609375,
+                            "y": 1110.1993408203125
                         },
                         "scale": {
                             "x": 0.54992318153381348,
@@ -1799,7 +1799,7 @@
                         "name": "Ignite Overlay main use",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -1847,14 +1847,14 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.30": [],
-                "libobs.hide_scene_item.30": [],
-                "libobs.show_scene_item.32": [],
-                "libobs.hide_scene_item.32": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.23": [],
-                "libobs.hide_scene_item.23": []
+                "libobs.show_scene_item.Ignite Stats Orange": [],
+                "libobs.hide_scene_item.Ignite Stats Orange": [],
+                "libobs.show_scene_item.Ignite Stats Blue": [],
+                "libobs.hide_scene_item.Ignite Stats Blue": [],
+                "libobs.show_scene_item.Powered by ignite": [],
+                "libobs.hide_scene_item.Powered by ignite": [],
+                "libobs.show_scene_item.Ignite Overlay main use": [],
+                "libobs.hide_scene_item.Ignite Overlay main use": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1862,7 +1862,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Match Scene Group (Only use if Ignire does not work",
             "uuid": "2580be0b-bee8-4c4e-a291-5b9faf7b9835",
             "id": "group",
@@ -1925,8 +1925,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.show_scene_item.Echo VR Capture": [],
+                "libobs.hide_scene_item.Echo VR Capture": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1967,9 +1967,12 @@
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
-        "type2": 3
+        "type": 0,
+        "internal": 0
     },
     "modules": {
+        "copyTransformHotkey": [],
+        "pasteTransformHotkey": [],
         "scripts-tool": [
             {
                 "path": "C:/Program Files/obs-studio/data/obs-plugins/frontend-tools/scripts/instant-replay.lua",
@@ -2094,9 +2097,9 @@
             {
                 "path": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/scripts/countdown.lua",
                 "settings": {
+                    "reset_hotkey": [],
                     "source": "Timer",
-                    "stop_text": "soon",
-                    "reset_hotkey": []
+                    "stop_text": "soon"
                 }
             }
         ],
@@ -2127,7 +2130,7 @@
     },
     "sources": [
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "01_Stream_Start",
             "uuid": "cbbbc0bd-1813-4f10-9a17-e1a270ba1e57",
             "id": "scene",
@@ -2646,7 +2649,7 @@
                         "name": "Videos [Stream Start]",
                         "source_uuid": "ccfca7c6-9da1-4944-a8a1-2c733d4ae30a",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 106.0,
@@ -3049,26 +3052,26 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.43": [],
-                "libobs.hide_scene_item.43": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.29": [],
-                "libobs.hide_scene_item.29": [],
-                "libobs.show_scene_item.37": [],
-                "libobs.hide_scene_item.37": [],
-                "libobs.show_scene_item.56": [],
-                "libobs.hide_scene_item.56": [],
-                "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": [],
-                "libobs.show_scene_item.66": [],
-                "libobs.hide_scene_item.66": [],
-                "libobs.show_scene_item.67": [],
-                "libobs.hide_scene_item.67": [],
-                "libobs.show_scene_item.68": [],
-                "libobs.hide_scene_item.68": [],
-                "libobs.show_scene_item.69": [],
-                "libobs.hide_scene_item.69": []
+                "libobs.show_scene_item.Soundtrack [Stream Start]": [],
+                "libobs.hide_scene_item.Soundtrack [Stream Start]": [],
+                "libobs.show_scene_item.Stream Start Overlay Group": [],
+                "libobs.hide_scene_item.Stream Start Overlay Group": [],
+                "libobs.show_scene_item.Casters Group": [],
+                "libobs.hide_scene_item.Casters Group": [],
+                "libobs.show_scene_item.Videos [Stream Start]": [],
+                "libobs.hide_scene_item.Videos [Stream Start]": [],
+                "libobs.show_scene_item.Timer and Region": [],
+                "libobs.hide_scene_item.Timer and Region": [],
+                "libobs.show_scene_item.Logos [Stream Start]": [],
+                "libobs.hide_scene_item.Logos [Stream Start]": [],
+                "libobs.show_scene_item.Twitch Chat 2": [],
+                "libobs.hide_scene_item.Twitch Chat 2": [],
+                "libobs.show_scene_item.Blue Team": [],
+                "libobs.hide_scene_item.Blue Team": [],
+                "libobs.show_scene_item.VS": [],
+                "libobs.hide_scene_item.VS": [],
+                "libobs.show_scene_item.Orange Team": [],
+                "libobs.hide_scene_item.Orange Team": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -3078,7 +3081,7 @@
             }
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "02_Intro",
             "uuid": "9f23c22a-24b3-4ad9-8216-addfdc40033c",
             "id": "scene",
@@ -3140,8 +3143,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.show_scene_item.EML.mp4": [],
+                "libobs.hide_scene_item.EML.mp4": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -3149,7 +3152,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "03_Pregame",
             "uuid": "33e96f43-dde1-4e8e-870d-c07aba0bcca8",
             "id": "scene",
@@ -4221,48 +4224,48 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.49": [],
-                "libobs.hide_scene_item.49": [],
-                "libobs.show_scene_item.32": [],
-                "libobs.hide_scene_item.32": [],
-                "libobs.show_scene_item.37": [],
-                "libobs.hide_scene_item.37": [],
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": [],
-                "libobs.show_scene_item.42": [],
-                "libobs.hide_scene_item.42": [],
-                "libobs.show_scene_item.51": [],
-                "libobs.hide_scene_item.51": [],
-                "libobs.show_scene_item.59": [],
-                "libobs.hide_scene_item.59": [],
-                "libobs.show_scene_item.60": [],
-                "libobs.hide_scene_item.60": [],
-                "libobs.show_scene_item.63": [],
-                "libobs.hide_scene_item.63": [],
-                "libobs.show_scene_item.61": [],
-                "libobs.hide_scene_item.61": [],
-                "libobs.show_scene_item.62": [],
-                "libobs.hide_scene_item.62": [],
-                "libobs.show_scene_item.64": [],
-                "libobs.hide_scene_item.64": [],
-                "libobs.show_scene_item.65": [],
-                "libobs.hide_scene_item.65": [],
-                "libobs.show_scene_item.66": [],
-                "libobs.hide_scene_item.66": [],
-                "libobs.show_scene_item.67": [],
-                "libobs.hide_scene_item.67": []
+                "libobs.show_scene_item.Soundtrack [Pregame Scene]": [],
+                "libobs.hide_scene_item.Soundtrack [Pregame Scene]": [],
+                "libobs.show_scene_item.Pregame Scene Overlay Group": [],
+                "libobs.hide_scene_item.Pregame Scene Overlay Group": [],
+                "libobs.show_scene_item.Casters Group": [],
+                "libobs.hide_scene_item.Casters Group": [],
+                "libobs.show_scene_item.Text Group [Pregame Scene]": [],
+                "libobs.hide_scene_item.Text Group [Pregame Scene]": [],
+                "libobs.show_scene_item.Logos [Pregame Scene]": [],
+                "libobs.hide_scene_item.Logos [Pregame Scene]": [],
+                "libobs.show_scene_item.Match Scene Group (Only use if Ignire does not work": [],
+                "libobs.hide_scene_item.Match Scene Group (Only use if Ignire does not work": [],
+                "libobs.show_scene_item.Ignite Stats Orange": [],
+                "libobs.hide_scene_item.Ignite Stats Orange": [],
+                "libobs.show_scene_item.Ignite Stats Blue": [],
+                "libobs.hide_scene_item.Ignite Stats Blue": [],
+                "libobs.show_scene_item.Echo VR Capture": [],
+                "libobs.hide_scene_item.Echo VR Capture": [],
+                "libobs.show_scene_item.Powered by ignite": [],
+                "libobs.hide_scene_item.Powered by ignite": [],
+                "libobs.show_scene_item.Twitch Chat": [],
+                "libobs.hide_scene_item.Twitch Chat": [],
+                "libobs.show_scene_item.Ignite Overlay main use": [],
+                "libobs.hide_scene_item.Ignite Overlay main use": [],
+                "libobs.show_scene_item.Blue Team": [],
+                "libobs.hide_scene_item.Blue Team": [],
+                "libobs.show_scene_item.VS": [],
+                "libobs.hide_scene_item.VS": [],
+                "libobs.show_scene_item.Orange Team": [],
+                "libobs.hide_scene_item.Orange Team": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {
+                "show_in_multiview": false,
                 "transition": "",
-                "transition_duration": 1000,
-                "show_in_multiview": false
+                "transition_duration": 1000
             }
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "04_Live_Match",
             "uuid": "45f1b071-eaf4-4163-8023-bede8dae29cf",
             "id": "scene",
@@ -4316,8 +4319,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 204.85296630859375,
-                            "y": 967.4769287109375
+                            "x": 212.85296630859375,
+                            "y": 912.4769287109375
                         },
                         "scale": {
                             "x": 0.86413693428039551,
@@ -4354,8 +4357,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1021.89404296875,
-                            "y": 973.6851806640625
+                            "x": 1029.89404296875,
+                            "y": 918.6851806640625
                         },
                         "scale": {
                             "x": 0.84716135263442993,
@@ -4389,11 +4392,11 @@
                         "name": "Powered by ignite",
                         "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 811.10931396484375,
-                            "y": 841.48919677734375
+                            "y": 835.48931884765625
                         },
                         "scale": {
                             "x": 0.42675426602363586,
@@ -4427,11 +4430,11 @@
                         "name": "Ignite Overlay main use",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": -8.0,
-                            "y": 29.0
+                            "x": 0.0,
+                            "y": -26.0
                         },
                         "scale": {
                             "x": 1.0007493495941162,
@@ -4468,8 +4471,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": -8.0,
-                            "y": 29.0
+                            "x": 0.0,
+                            "y": -26.0
                         },
                         "scale": {
                             "x": 0.77602523565292358,
@@ -4592,14 +4595,14 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": []
+                "libobs.show_scene_item.Echo VR Capture": [],
+                "libobs.hide_scene_item.Echo VR Capture": [],
+                "libobs.show_scene_item.Ignite overlay": [],
+                "libobs.hide_scene_item.Ignite overlay": [],
+                "libobs.show_scene_item.EML Minimap": [],
+                "libobs.hide_scene_item.EML Minimap": [],
+                "libobs.show_scene_item.Player Lists": [],
+                "libobs.hide_scene_item.Player Lists": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4610,7 +4613,7 @@
             }
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "05_Round_End",
             "uuid": "16016f04-bc7f-4082-86f3-680388f4b5c6",
             "id": "scene",
@@ -5882,42 +5885,42 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.23": [],
-                "libobs.hide_scene_item.23": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.31": [],
-                "libobs.hide_scene_item.31": [],
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": [],
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": [],
-                "libobs.show_scene_item.33": [],
-                "libobs.hide_scene_item.33": [],
-                "libobs.show_scene_item.51": [],
-                "libobs.hide_scene_item.51": [],
-                "libobs.show_scene_item.37": [],
-                "libobs.hide_scene_item.37": [],
-                "libobs.show_scene_item.43": [],
-                "libobs.hide_scene_item.43": [],
-                "libobs.show_scene_item.44": [],
-                "libobs.hide_scene_item.44": [],
-                "libobs.show_scene_item.45": [],
-                "libobs.hide_scene_item.45": [],
-                "libobs.show_scene_item.46": [],
-                "libobs.hide_scene_item.46": [],
-                "libobs.show_scene_item.50": [],
-                "libobs.hide_scene_item.50": [],
-                "libobs.show_scene_item.52": [],
-                "libobs.hide_scene_item.52": []
+                "libobs.show_scene_item.Soundtrack [Pregame Scene]": [],
+                "libobs.hide_scene_item.Soundtrack [Pregame Scene]": [],
+                "libobs.show_scene_item.Background Layer": [],
+                "libobs.hide_scene_item.Background Layer": [],
+                "libobs.show_scene_item.After Round Overlay Group": [],
+                "libobs.hide_scene_item.After Round Overlay Group": [],
+                "libobs.show_scene_item.Casters Group": [],
+                "libobs.hide_scene_item.Casters Group": [],
+                "libobs.show_scene_item.Text Group [Stream Start]": [],
+                "libobs.hide_scene_item.Text Group [Stream Start]": [],
+                "libobs.show_scene_item.Logos [Pregame Scene]": [],
+                "libobs.hide_scene_item.Logos [Pregame Scene]": [],
+                "libobs.show_scene_item.Match Scene Group (Only use if Ignire does not work": [],
+                "libobs.hide_scene_item.Match Scene Group (Only use if Ignire does not work": [],
+                "libobs.show_scene_item.Browser Sources [End of round Scene]": [],
+                "libobs.hide_scene_item.Browser Sources [End of round Scene]": [],
+                "libobs.show_scene_item.Text (GDI+)": [],
+                "libobs.hide_scene_item.Text (GDI+)": [],
+                "libobs.show_scene_item.Round Scores": [],
+                "libobs.hide_scene_item.Round Scores": [],
+                "libobs.show_scene_item.Echo VR Capture": [],
+                "libobs.hide_scene_item.Echo VR Capture": [],
+                "libobs.show_scene_item.Stream chat": [],
+                "libobs.hide_scene_item.Stream chat": [],
+                "libobs.show_scene_item.Ignite Stats Orange": [],
+                "libobs.hide_scene_item.Ignite Stats Orange": [],
+                "libobs.show_scene_item.Ignite Stats Blue": [],
+                "libobs.hide_scene_item.Ignite Stats Blue": [],
+                "libobs.show_scene_item.Powered by ignite": [],
+                "libobs.hide_scene_item.Powered by ignite": [],
+                "libobs.show_scene_item.Ignite Overlay main use": [],
+                "libobs.hide_scene_item.Ignite Overlay main use": [],
+                "libobs.show_scene_item.Region": [],
+                "libobs.hide_scene_item.Region": [],
+                "libobs.show_scene_item.Browser": [],
+                "libobs.hide_scene_item.Browser": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5928,7 +5931,7 @@
             }
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "06_Credits",
             "uuid": "ae78f849-af21-4b41-8b6c-3bf7679e82d4",
             "id": "scene",
@@ -6144,14 +6147,14 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": []
+                "libobs.show_scene_item.Background Layer": [],
+                "libobs.hide_scene_item.Background Layer": [],
+                "libobs.show_scene_item.End text": [],
+                "libobs.hide_scene_item.End text": [],
+                "libobs.show_scene_item.L1nkOne - Shutdown": [],
+                "libobs.hide_scene_item.L1nkOne - Shutdown": [],
+                "libobs.show_scene_item.Main logo": [],
+                "libobs.hide_scene_item.Main logo": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6162,13 +6165,13 @@
             }
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "After Round Overlay",
             "uuid": "8c2ba11c-b574-4d07-a54f-8a54770cb1e4",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Intermission Screen After Round.png",
+                "file": "C:/echo-master-league-overlays/assets/images/Intermission Screen After Round.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -6190,13 +6193,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Background blue",
             "uuid": "305127f5-b1f5-4736-87c0-ee31dad5774a",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/unknown (4).png"
+                "file": "C:/echo-master-league-overlays/assets/images/unknown (4).png"
             },
             "mixers": 0,
             "sync": 0,
@@ -6216,25 +6219,25 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Blue Team",
             "uuid": "4a9ec966-4002-40ce-9a0a-99b219135bc5",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "file": "C:/echo-master-league-overlays/assets/text/blue_team_name.txt",
                 "outline": true,
+                "read_from_file": true,
                 "text": "[Placeholder] VS [Placeholder]",
                 "font": {
                     "face": "a Astro Space",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 54,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "color": 4294967295,
-                "outline_color": 4281084972,
-                "read_from_file": true,
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/text/blue_team_name.txt"
+                "outline_color": 4281084972
             },
             "mixers": 0,
             "sync": 0,
@@ -6254,13 +6257,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Bottom lil guy",
             "uuid": "c4523fb6-592f-4d4e-8bff-3f2efc4df434",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Pregame Screen LAY2.png"
+                "file": "C:/echo-master-league-overlays/assets/images/Pregame Screen LAY2.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -6280,7 +6283,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Browser",
             "uuid": "556ef548-68db-4a9d-8725-4a3a76132a7c",
             "id": "browser_source",
@@ -6312,7 +6315,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Caster 1 PFP",
             "uuid": "7f3ccb10-bd18-4ef1-bdb0-f3efb62d6e1d",
             "id": "image_source",
@@ -6340,7 +6343,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Caster 2 PFP",
             "uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
             "id": "image_source",
@@ -6366,7 +6369,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Caster 3 PFP",
             "uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
             "id": "image_source",
@@ -6394,7 +6397,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Caster 4 PFP",
             "uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
             "id": "image_source",
@@ -6422,7 +6425,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Chat [Pregame Scene]",
             "uuid": "f8f0a484-b1a5-43e1-8ae3-194a463e2864",
             "id": "browser_source",
@@ -6463,7 +6466,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Echo VR Capture",
             "uuid": "aa897ad0-a1d7-4d21-88f4-07676297dd99",
             "id": "game_capture",
@@ -6495,14 +6498,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "EML Minimap",
             "uuid": "ee8fc863-bc8a-4749-829e-8ec19d6c4901",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/overlay/default_minimap.html"
+                "local_file": "C:/echo-master-league-overlays/overlay/default_minimap.html"
             },
             "mixers": 255,
             "sync": 0,
@@ -6528,13 +6531,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "EML.mp4",
             "uuid": "1904f0d9-a3e6-478f-9615-e0a02445776b",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/videos/EML.mp4"
+                "local_file": "C:/echo-master-league-overlays/assets/videos/EML.mp4"
             },
             "mixers": 255,
             "sync": 0,
@@ -6563,7 +6566,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "End text",
             "uuid": "57d658c2-7466-41c4-8011-c1dd2b3db664",
             "id": "text_gdiplus",
@@ -6598,7 +6601,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Ignite Overlay main use",
             "uuid": "14087b76-9032-4e95-aa06-f115780c3158",
             "id": "browser_source",
@@ -6632,7 +6635,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Ignite Stats Blue",
             "uuid": "17989c40-7830-4df1-ac9f-38b6126d9c7a",
             "id": "browser_source",
@@ -6674,7 +6677,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503316482,
+                    "prev_ver": 486604803,
                     "name": "Crop/Pad",
                     "uuid": "55366a85-8e20-4935-846e-dd9fdc35e6a5",
                     "id": "crop_filter",
@@ -6703,7 +6706,7 @@
             ]
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Ignite Stats Orange",
             "uuid": "6cca7ca8-e0b5-42c3-95aa-edf23f290d15",
             "id": "browser_source",
@@ -6744,7 +6747,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503316482,
+                    "prev_ver": 486604803,
                     "name": "Crop/Pad",
                     "uuid": "38e19746-2107-461c-88cf-4a80dd87bd70",
                     "id": "crop_filter",
@@ -6774,7 +6777,7 @@
             ]
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Image Slide Show",
             "uuid": "4fc6ade9-2274-4e8d-9c61-97bab34a1464",
             "id": "slideshow",
@@ -6784,42 +6787,42 @@
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/echoarena_render_character_01_WITH_LOGO2.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/echoarena_render_character_01_WITH_LOGO2.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/echoarena_render_character_06.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/echoarena_render_character_06.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/echoarena_render_map_orthographic.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/echoarena_render_map_orthographic.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/echoarena_render_map_topdown.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/echoarena_render_map_topdown.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_001811.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_001811.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_002627.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_002627.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_002701.jpg"
+                        "value": "C:/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_002701.jpg"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_003033.png"
+                        "value": "C:/echo-master-league-overlays/assets/images/Screenshot_2022-04-16_003033.png"
                     }
                 ],
                 "use_custom_size": "1920x1080"
@@ -6848,13 +6851,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "L1nkOne - Shutdown",
             "uuid": "58f7dbc7-9580-46f4-b938-f5ad732e5061",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/audio/Multiplayer Shutdown (Echo Arena Tribute) - L1nkOne.mp3",
+                "local_file": "C:/echo-master-league-overlays/assets/audio/Multiplayer Shutdown (Echo Arena Tribute) - L1nkOne.mp3",
                 "is_local_file": true,
                 "looping": true,
                 "clear_on_media_end": true,
@@ -6891,14 +6894,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "L1nkOne Intro",
             "uuid": "478608cf-4d2a-4734-9d03-bf4487e4e288",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "looping": true,
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/audio/Multiplayer - Echo Arena Tribute.mp3"
+                "local_file": "C:/echo-master-league-overlays/assets/audio/Multiplayer - Echo Arena Tribute.mp3",
+                "looping": true
             },
             "mixers": 255,
             "sync": 0,
@@ -6927,13 +6930,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Logo",
             "uuid": "52e33e10-b3de-42bd-ab5a-d63cb739ecb4",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/EML Logo.png",
+                "file": "C:/echo-master-league-overlays/assets/images/EML Logo.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -6955,7 +6958,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Logos Slideshow [Pregame Scene]",
             "uuid": "ffdceba3-0d71-4f6b-aac0-a8f756f047b1",
             "id": "slideshow",
@@ -6987,13 +6990,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Main Background",
             "uuid": "01edc1fc-11fd-4af0-aa11-75726244cc8d",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Intermission Screen.png",
+                "file": "C:/echo-master-league-overlays/assets/images/Intermission Screen.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -7015,13 +7018,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Main logo",
             "uuid": "a6b6490e-f53b-4bd4-9d9b-46838176b5fa",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/EML Logo.png",
+                "file": "C:/echo-master-league-overlays/assets/images/EML Logo.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -7043,7 +7046,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Match Region",
             "uuid": "49d77d3c-638c-4731-b7c4-d7d3208fb211",
             "id": "text_gdiplus",
@@ -7069,13 +7072,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Music",
             "uuid": "d19c24d9-3117-46d3-88cb-438d78e75fd5",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/audio/Multiplayer - Echo Arena Tribute.mp3",
+                "local_file": "C:/echo-master-league-overlays/assets/audio/Multiplayer - Echo Arena Tribute.mp3",
                 "is_local_file": true,
                 "looping": true,
                 "clear_on_media_end": true,
@@ -7112,21 +7115,21 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Orange Team",
             "uuid": "81c8ee87-571e-4770-935c-8675a1c6281e",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "file": "C:/echo-master-league-overlays/assets/text/orange_team_name.txt",
                 "outline": true,
-                "text": "[Placeholder] VS [Placeholder]",
                 "read_from_file": true,
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/text/orange_team_name.txt",
+                "text": "[Placeholder] VS [Placeholder]",
                 "font": {
                     "face": "a Astro Space",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 54,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "color": 4294967295,
@@ -7150,16 +7153,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Player Lists",
             "uuid": "2d8385cf-97d9-4bdc-bd2c-11349c5dbe1a",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "width": 1920,
-                "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/overlay/player_lists.html"
+                "local_file": "C:/echo-master-league-overlays/overlay/player_lists.html",
+                "width": 1920,
+                "height": 1080
             },
             "mixers": 255,
             "sync": 0,
@@ -7185,7 +7188,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Powered by ignite",
             "uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
             "id": "browser_source",
@@ -7219,13 +7222,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Pregame Montage",
             "uuid": "3d041813-b24e-45fd-9cbf-83e3d5f8b0ad",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/videos/Echo Pregame Montage.mp4",
+                "local_file": "C:/echo-master-league-overlays/assets/videos/Echo Pregame Montage.mp4",
+                "undo_uuid": "3d041813-b24e-45fd-9cbf-83e3d5f8b0ad",
                 "looping": true
             },
             "mixers": 255,
@@ -7255,7 +7259,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Region",
             "uuid": "fb9920ec-e771-47a6-9ba3-b11849858bc0",
             "id": "text_gdiplus",
@@ -7287,7 +7291,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Round scores",
             "uuid": "11d0a696-250d-495a-8c3e-22eb38b0a7d9",
             "id": "text_gdiplus",
@@ -7337,7 +7341,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Scroll Text (Information)",
             "uuid": "728d537c-ebb4-4522-98bd-580c1368577d",
             "id": "text_gdiplus",
@@ -7369,7 +7373,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503316482,
+                    "prev_ver": 486604803,
                     "name": "Scroll",
                     "uuid": "dff9e7d3-b923-4712-9d78-28118b5bb2fb",
                     "id": "scroll_filter",
@@ -7397,7 +7401,7 @@
             ]
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Stream chat",
             "uuid": "ee7f7167-5c61-493b-81bc-476fd879a742",
             "id": "browser_source",
@@ -7430,13 +7434,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Strem start main",
             "uuid": "7564bceb-017b-49aa-9cb4-1cc0ab705a1c",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/jamie/OneDrive/Documents/GitHub/echo-master-league-overlays/assets/images/Pregame Screen.png"
+                "file": "C:/echo-master-league-overlays/assets/images/Pregame Screen.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -7456,7 +7460,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Text (GDI+)",
             "uuid": "773cddb9-510f-4259-ac43-07871d3b9a85",
             "id": "text_gdiplus",
@@ -7506,19 +7510,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Timer",
             "uuid": "379e5ebe-3363-4b9c-91eb-5a454e45e8b6",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "text": "soon",
                 "font": {
                     "face": "a Astro Space",
                     "flags": 0,
                     "size": 256,
                     "style": "Regular"
-                },
-                "text": "2:34"
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -7538,7 +7542,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Twitch Chat",
             "uuid": "86cb5dda-2cd4-4fdc-ab3c-eb5b9443f60a",
             "id": "window_capture",
@@ -7566,7 +7570,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "Twitch Chat 2",
             "uuid": "7b328101-424b-4689-9ca0-655016853239",
             "id": "window_capture",
@@ -7594,7 +7598,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503316482,
+            "prev_ver": 486604803,
             "name": "VS",
             "uuid": "84732dd4-cf4e-4985-bf4c-dc9c69714ea7",
             "id": "text_gdiplus",
@@ -7603,9 +7607,9 @@
                 "text": "VS",
                 "font": {
                     "face": "a Astro Space",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 54,
-                    "flags": 0
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
