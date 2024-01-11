@@ -501,7 +501,7 @@ function set_pos(elem, z, x) {
 }
 
 function player_join_number(i) {
-  return i + (1 % 5);
+  return 1 + (i % 5);
 }
 
 function set_number(elem, text) {
