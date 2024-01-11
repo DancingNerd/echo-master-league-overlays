@@ -19,7 +19,7 @@ sw.subscribe("frame_10hz", (data) => {
         player_data["head"]["position"][2],
         player_data["head"]["position"][0]
       );
-      set_number(player_numbers[i], "" + i + 1);
+      set_number(player_join_number(i));
       players[i].style.visibility = "visible";
     } else {
       set_pos(players[i], 0, 0);
@@ -46,9 +46,10 @@ function set_pos(elem, z, x) {
   elem.style.top = (x / 32 + 0.5) * 165 + 5 + "px";
 }
 
+function player_join_number(i) {
+  return 1 + (i % 5);
+}
+
 function set_number(elem, text) {
-  if (text.length === 1) {
-    text = "0" + text;
-  }
   elem.innerText = text;
 }
