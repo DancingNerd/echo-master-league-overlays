@@ -17,10 +17,11 @@ Steps to install:
 4. Install fonts and files in the `C:\echo-master-league-overlays\install_this` folder
 5. Install Companion: https://drive.google.com/file/d/1PjcQcIP3UYdp11oB2KvFKBdYn0rmdzHC/view?usp=drive_link
 6. In OBS go to Tools > Scripts and click the + sign and add the countdown.lua from the C:\echo-master-league-overlays\scripts folder.
-7. Change the 'Starting Soon [tm]' value to just 'Soon' and select the Text Source as `Timer`
-8. In OBS go to Tools > WebSocket Server Settings and check `Enable WebSocket Server`
-9. Click the `Show Connect Info` button further down the screen and copy the password.
-10. Uncheck the `Enable Authentication` setting
-11. Navigate to the Companion Admin page or open http:127.0.0.1:8000 in your web browser and click on the `Import/Export` tab.
-12. Click the Import button and select the `EML.companionconfig` from the C:\echo-master-league-overlays path.
-13. Import the EML.json from the C:\echo-master-league-overlays folder and if prompted locate any files from the missing files prompt.
+8. Change the 'Starting Soon [tm]' value to just 'Soon' and select the Text Source as `Timer`
+9. In OBS go to Tools > WebSocket Server Settings and check `Enable WebSocket Server`
+10. Click the `Show Connect Info` button further down the screen and copy the password.
+11. Uncheck the `Enable Authentication` setting
+12. Navigate to the Companion Admin page or open http:127.0.0.1:8000 in your web browser and click on the `Import/Export` tab.
+13. Click the Import button and select the `EML.companionconfig` from the C:\echo-master-league-overlays path.
+14. In OBS, go to Profile -> Import and import the obs_profile folder. This will import a profile called "Echo Master League" that should be used
+15. Import the EML.json from the C:\echo-master-league-overlays folder and if prompted locate any files from the missing files prompt.
