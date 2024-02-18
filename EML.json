@@ -87,9 +87,12 @@
             }
         ]
     },
-    "current_scene": "06_Credits",
-    "current_program_scene": "06_Credits",
+    "current_scene": "01_Stream_Start",
+    "current_program_scene": "01_Stream_Start",
     "scene_order": [
+        {
+            "name": "** SETUP"
+        },
         {
             "name": "01_Stream_Start"
         },
@@ -107,6 +110,9 @@
         },
         {
             "name": "06_Credits"
+        },
+        {
+            "name": "** Replay Overlay"
         }
     ],
     "name": "EML",
@@ -647,19 +653,19 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 926,
-                "cy": 321,
+                "cx": 1678,
+                "cy": 669,
                 "id_counter": 0,
                 "items": [
                     {
                         "name": "Caster 4 PFP",
                         "source_uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 925.171630859375,
-                            "y": 14.505584716796875
+                            "x": 925.17169189453125,
+                            "y": 14.50555419921875
                         },
                         "scale": {
                             "x": 1.2545453310012817,
@@ -692,12 +698,12 @@
                     {
                         "name": "Caster 3 PFP",
                         "source_uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 627.148681640625,
-                            "y": 12.087890625
+                            "x": 627.14862060546875,
+                            "y": 12.08782958984375
                         },
                         "scale": {
                             "x": 1.2318177223205566,
@@ -730,7 +736,7 @@
                     {
                         "name": "Caster 2 PFP",
                         "source_uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -776,7 +782,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.98365980386734009,
+                            "x": 0.98365974426269531,
                             "y": 0.98360651731491089
                         },
                         "align": 5,
@@ -1526,7 +1532,7 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 185,
+                "cx": 151,
                 "cy": 1063,
                 "id_counter": 0,
                 "items": [
@@ -1624,198 +1630,6 @@
                 "libobs.hide_scene_item.Timer": [],
                 "libobs.show_scene_item.Region": [],
                 "libobs.hide_scene_item.Region": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Ignite overlay",
-            "uuid": "00ee6527-63ee-4ffa-917e-98196902d1b5",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "custom_size": true,
-                "cx": 3424,
-                "cy": 2092,
-                "id_counter": 0,
-                "items": [
-                    {
-                        "name": "Ignite Stats Orange",
-                        "source_uuid": "6cca7ca8-e0b5-42c3-95aa-edf23f290d15",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 274.2861328125,
-                            "y": 1209.4130859375
-                        },
-                        "scale": {
-                            "x": 1.1135423183441162,
-                            "y": 1.1136363744735718
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 30,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ignite Stats Blue",
-                        "source_uuid": "17989c40-7830-4df1-ac9f-38b6126d9c7a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1327.139892578125,
-                            "y": 1217.4136962890625
-                        },
-                        "scale": {
-                            "x": 1.0916672945022583,
-                            "y": 1.0928570032119751
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 32,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Powered by ignite",
-                        "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1045.2099609375,
-                            "y": 1110.1993408203125
-                        },
-                        "scale": {
-                            "x": 0.54992318153381348,
-                            "y": 0.54676258563995361
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 114,
-                        "crop_top": 642,
-                        "crop_right": 1155,
-                        "crop_bottom": 1139,
-                        "id": 22,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ignite Overlay main use",
-                        "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.2895834445953369,
-                            "y": 1.2898147106170654
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 23,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Ignite Stats Orange": [],
-                "libobs.hide_scene_item.Ignite Stats Orange": [],
-                "libobs.show_scene_item.Ignite Stats Blue": [],
-                "libobs.hide_scene_item.Ignite Stats Blue": [],
-                "libobs.show_scene_item.Powered by ignite": [],
-                "libobs.hide_scene_item.Powered by ignite": [],
-                "libobs.show_scene_item.Ignite Overlay main use": [],
-                "libobs.hide_scene_item.Ignite Overlay main use": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1970,6 +1784,468 @@
         }
     },
     "sources": [
+        {
+            "prev_ver": 486604803,
+            "name": "** Replay Overlay",
+            "uuid": "fca39a78-9664-4f27-a64a-f51e2e33e37a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Instant Replay Video",
+                        "source_uuid": "0d82d52c-bbb8-4039-b80a-3f08acf547c0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 20.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 1900.0,
+                            "y": 1071.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Replay Border",
+                        "source_uuid": "7816820b-9ca6-4cd8-81c1-744fb2d64a79",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.Instant Replay Video": [],
+                "libobs.hide_scene_item.Instant Replay Video": [],
+                "libobs.show_scene_item.Replay Border": [],
+                "libobs.hide_scene_item.Replay Border": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
+            "name": "** SETUP",
+            "uuid": "fd988242-241f-4300-a2f3-6b8aed0e02f2",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 9,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Setup Text",
+                        "source_uuid": "a8bc0be5-369d-46e9-8303-c7fc63ba5fd6",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 10.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 1900.0,
+                            "y": 264.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Gameplay Overlay",
+                        "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 141.0,
+                            "y": 151.0
+                        },
+                        "scale": {
+                            "x": 1.7205588817596436,
+                            "y": 1.7209302186965942
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 468,
+                        "crop_top": 0,
+                        "crop_right": 450,
+                        "crop_bottom": 973,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Local Camera",
+                        "source_uuid": "245b8ab4-bffa-4bbe-a50d-ce95cdf9dde2",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 599.0
+                        },
+                        "scale": {
+                            "x": 0.45364582538604736,
+                            "y": 0.45370370149612427
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Caster 1 PFP",
+                        "source_uuid": "7f3ccb10-bd18-4ef1-bdb0-f3efb62d6e1d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 410.0,
+                            "y": 361.0
+                        },
+                        "scale": {
+                            "x": 0.46500000357627869,
+                            "y": 0.46449136734008789
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 250.0,
+                            "y": 250.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Caster 2 PFP",
+                        "source_uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 715.0,
+                            "y": 351.0
+                        },
+                        "scale": {
+                            "x": 0.45500001311302185,
+                            "y": 0.45489442348480225
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 250.0,
+                            "y": 250.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Caster 3 PFP",
+                        "source_uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 990.0,
+                            "y": 353.0
+                        },
+                        "scale": {
+                            "x": 0.45500001311302185,
+                            "y": 0.45489442348480225
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 250.0,
+                            "y": 250.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Caster 4 PFP",
+                        "source_uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1228.0,
+                            "y": 352.0
+                        },
+                        "scale": {
+                            "x": 0.46000000834465027,
+                            "y": 0.46065258979797363
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Region",
+                        "source_uuid": "fb9920ec-e771-47a6-9ba3-b11849858bc0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1693.0,
+                            "y": 897.0
+                        },
+                        "scale": {
+                            "x": 0.52512562274932861,
+                            "y": 0.52499997615814209
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 9,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.Setup Text": [],
+                "libobs.hide_scene_item.Setup Text": [],
+                "libobs.show_scene_item.Gameplay Overlay": [],
+                "libobs.hide_scene_item.Gameplay Overlay": [],
+                "libobs.show_scene_item.Local Camera": [],
+                "libobs.hide_scene_item.Local Camera": [],
+                "libobs.show_scene_item.Caster 1 PFP": [],
+                "libobs.hide_scene_item.Caster 1 PFP": [],
+                "libobs.show_scene_item.Caster 2 PFP": [],
+                "libobs.hide_scene_item.Caster 2 PFP": [],
+                "libobs.show_scene_item.Caster 3 PFP": [],
+                "libobs.hide_scene_item.Caster 3 PFP": [],
+                "libobs.show_scene_item.Caster 4 PFP": [],
+                "libobs.hide_scene_item.Caster 4 PFP": [],
+                "libobs.show_scene_item.Region": [],
+                "libobs.hide_scene_item.Region": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
         {
             "prev_ver": 486604803,
             "name": "01_Stream_Start",
@@ -2257,7 +2533,7 @@
                     {
                         "name": "Caster 4 PFP",
                         "source_uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -2295,12 +2571,12 @@
                     {
                         "name": "Caster 3 PFP",
                         "source_uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 1749.4527587890625,
-                            "y": 198.99995422363281
+                            "y": 198.99993896484375
                         },
                         "scale": {
                             "x": 0.5079008936882019,
@@ -2333,7 +2609,7 @@
                     {
                         "name": "Caster 2 PFP",
                         "source_uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -2379,7 +2655,7 @@
                             "y": 193.99996948242188
                         },
                         "scale": {
-                            "x": 0.40558087825775146,
+                            "x": 0.40558084845542908,
                             "y": 0.40685540437698364
                         },
                         "align": 5,
@@ -2733,8 +3009,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1254.0,
-                            "y": 453.0
+                            "x": 1252.0,
+                            "y": 404.0
                         },
                         "scale": {
                             "x": 1.565000057220459,
@@ -2748,9 +3024,9 @@
                             "y": 0.0
                         },
                         "crop_left": 0,
-                        "crop_top": 43,
+                        "crop_top": 162,
                         "crop_right": 0,
-                        "crop_bottom": 88,
+                        "crop_bottom": 85,
                         "id": 71,
                         "group_item_backup": false,
                         "scale_filter": "disable",
@@ -2905,14 +3181,14 @@
                 "libobs.hide_scene_item.Timer and Region": [],
                 "libobs.show_scene_item.Logos [Stream Start]": [],
                 "libobs.hide_scene_item.Logos [Stream Start]": [],
+                "libobs.show_scene_item.Stream chat": [],
+                "libobs.hide_scene_item.Stream chat": [],
                 "libobs.show_scene_item.Blue Team": [],
                 "libobs.hide_scene_item.Blue Team": [],
                 "libobs.show_scene_item.VS": [],
                 "libobs.hide_scene_item.VS": [],
                 "libobs.show_scene_item.Orange Team": [],
-                "libobs.hide_scene_item.Orange Team": [],
-                "libobs.show_scene_item.Stream chat": [],
-                "libobs.hide_scene_item.Stream chat": []
+                "libobs.hide_scene_item.Orange Team": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -3000,7 +3276,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 68,
+                "id_counter": 69,
                 "items": [
                     {
                         "name": "Music",
@@ -3279,16 +3555,16 @@
                     {
                         "name": "Caster 4 PFP",
                         "source_uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 860.427490234375,
-                            "y": 210.03190612792969
+                            "x": 622.82861328125,
+                            "y": 206.61578369140625
                         },
                         "scale": {
-                            "x": 0.86707234382629395,
-                            "y": 0.86762958765029907
+                            "x": 0.48522043228149414,
+                            "y": 0.48569101095199585
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3317,16 +3593,16 @@
                     {
                         "name": "Caster 3 PFP",
                         "source_uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 654.45050048828125,
-                            "y": 208.35984802246094
+                            "x": 507.562255859375,
+                            "y": 205.67977905273438
                         },
                         "scale": {
-                            "x": 0.85136431455612183,
-                            "y": 0.85191160440444946
+                            "x": 0.47643008828163147,
+                            "y": 0.47689223289489746
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3355,16 +3631,16 @@
                     {
                         "name": "Caster 2 PFP",
                         "source_uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 447.19500732421875,
-                            "y": 211.70382690429688
+                            "x": 391.58047485351562,
+                            "y": 207.55172729492188
                         },
                         "scale": {
-                            "x": 0.85136431455612183,
-                            "y": 0.85191160440444946
+                            "x": 0.47643008828163147,
+                            "y": 0.47689223289489746
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3397,12 +3673,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 221.0,
-                            "y": 200.0
+                            "x": 265.0,
+                            "y": 201.00003051757812
                         },
                         "scale": {
-                            "x": 0.67985129356384277,
-                            "y": 0.68025124073028564
+                            "x": 0.380450040102005,
+                            "y": 0.38079833984375
                         },
                         "align": 5,
                         "bounds_type": 2,
@@ -3435,12 +3711,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 221.0,
-                            "y": 200.0
+                            "x": 265.0,
+                            "y": 201.00003051757812
                         },
                         "scale": {
-                            "x": 0.69114470481872559,
-                            "y": 0.69158875942230225
+                            "x": 0.38676995038986206,
+                            "y": 0.38714498281478882
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3823,44 +4099,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Powered by ignite",
-                        "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 827.0736083984375,
-                            "y": 704.58984375
-                        },
-                        "scale": {
-                            "x": 0.28670471906661987,
-                            "y": 0.28502532839775085
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 114,
-                        "crop_top": 642,
-                        "crop_right": 1155,
-                        "crop_bottom": 1139,
-                        "id": 61,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Twitch Chat",
                         "source_uuid": "86cb5dda-2cd4-4fdc-ab3c-eb5b9443f60a",
                         "visible": true,
@@ -3899,7 +4137,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Ignite Overlay main use",
+                        "name": "Gameplay Overlay",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
                         "locked": false,
@@ -4051,7 +4289,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "NVDIA Broadcast",
+                        "name": "Local Camera",
                         "source_uuid": "245b8ab4-bffa-4bbe-a50d-ce95cdf9dde2",
                         "visible": true,
                         "locked": false,
@@ -4121,20 +4359,18 @@
                 "libobs.hide_scene_item.Ignite Stats Blue": [],
                 "libobs.show_scene_item.Echo VR Capture": [],
                 "libobs.hide_scene_item.Echo VR Capture": [],
-                "libobs.show_scene_item.Powered by ignite": [],
-                "libobs.hide_scene_item.Powered by ignite": [],
                 "libobs.show_scene_item.Twitch Chat": [],
                 "libobs.hide_scene_item.Twitch Chat": [],
-                "libobs.show_scene_item.Ignite Overlay main use": [],
-                "libobs.hide_scene_item.Ignite Overlay main use": [],
+                "libobs.show_scene_item.Gameplay Overlay": [],
+                "libobs.hide_scene_item.Gameplay Overlay": [],
                 "libobs.show_scene_item.Blue Team": [],
                 "libobs.hide_scene_item.Blue Team": [],
                 "libobs.show_scene_item.VS": [],
                 "libobs.hide_scene_item.VS": [],
                 "libobs.show_scene_item.Orange Team": [],
                 "libobs.hide_scene_item.Orange Team": [],
-                "libobs.show_scene_item.NVDIA Broadcast": [],
-                "libobs.hide_scene_item.NVDIA Broadcast": []
+                "libobs.show_scene_item.Local Camera": [],
+                "libobs.hide_scene_item.Local Camera": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4153,7 +4389,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 27,
+                "id_counter": 29,
                 "items": [
                     {
                         "name": "Echo VR Capture",
@@ -4194,201 +4430,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Ignite Stats Orange",
-                        "source_uuid": "6cca7ca8-e0b5-42c3-95aa-edf23f290d15",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 212.85296630859375,
-                            "y": 912.4769287109375
-                        },
-                        "scale": {
-                            "x": 0.86413693428039551,
-                            "y": 0.86415636539459229
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 30,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ignite Stats Blue",
-                        "source_uuid": "17989c40-7830-4df1-ac9f-38b6126d9c7a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1029.89404296875,
-                            "y": 918.6851806640625
-                        },
-                        "scale": {
-                            "x": 0.84716135263442993,
-                            "y": 0.84803205728530884
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 32,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Powered by ignite",
-                        "source_uuid": "d910b962-c6fb-4b18-8c56-c891b7622f1c",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 811.10931396484375,
-                            "y": 835.48931884765625
-                        },
-                        "scale": {
-                            "x": 0.42675426602363586,
-                            "y": 0.42427527904510498
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 114,
-                        "crop_top": 642,
-                        "crop_right": 1155,
-                        "crop_bottom": 1139,
-                        "id": 22,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ignite Overlay main use",
-                        "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": -26.0
-                        },
-                        "scale": {
-                            "x": 1.0007493495941162,
-                            "y": 1.0008667707443237
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 23,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ignite overlay",
-                        "source_uuid": "00ee6527-63ee-4ffa-917e-98196902d1b5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": -26.0
-                        },
-                        "scale": {
-                            "x": 0.77602523565292358,
-                            "y": 0.77597713470458984
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 21,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": false
-                        }
-                    },
-                    {
                         "name": "EML Minimap",
                         "source_uuid": "ee8fc863-bc8a-4749-829e-8ec19d6c4901",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -4424,14 +4468,52 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Player Lists",
-                        "source_uuid": "2d8385cf-97d9-4bdc-bd2c-11349c5dbe1a",
+                        "name": "Gameplay Overlay",
+                        "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 795,
+                        "id": 29,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "** Replay Overlay",
+                        "source_uuid": "fca39a78-9664-4f27-a64a-f51e2e33e37a",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 861.0
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -4448,16 +4530,28 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 27,
+                        "id": 28,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
-                            "duration": 0
+                            "id": "swipe_transition",
+                            "versioned_id": "swipe_transition",
+                            "name": "** Replay Overlay Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 1000
                         },
                         "hide_transition": {
-                            "duration": 0
+                            "id": "swipe_transition",
+                            "versioned_id": "swipe_transition",
+                            "name": "** Replay Overlay Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 1000
                         },
                         "private_settings": {}
                     }
@@ -4478,12 +4572,12 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.Echo VR Capture": [],
                 "libobs.hide_scene_item.Echo VR Capture": [],
-                "libobs.show_scene_item.Ignite overlay": [],
-                "libobs.hide_scene_item.Ignite overlay": [],
                 "libobs.show_scene_item.EML Minimap": [],
                 "libobs.hide_scene_item.EML Minimap": [],
-                "libobs.show_scene_item.Player Lists": [],
-                "libobs.hide_scene_item.Player Lists": []
+                "libobs.show_scene_item.** Replay Overlay": [],
+                "libobs.hide_scene_item.** Replay Overlay": [],
+                "libobs.show_scene_item.Gameplay Overlay": [],
+                "libobs.hide_scene_item.Gameplay Overlay": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4501,7 +4595,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 56,
+                "id_counter": 58,
                 "items": [
                     {
                         "name": "Music",
@@ -4860,16 +4954,16 @@
                     {
                         "name": "Caster 4 PFP",
                         "source_uuid": "13922c9b-c5e0-458f-97d8-46c2079090a6",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 929.34698486328125,
-                            "y": 217.43275451660156
+                            "x": 637.27728271484375,
+                            "y": 206.59407043457031
                         },
                         "scale": {
-                            "x": 0.98900443315505981,
-                            "y": 0.98878514766693115
+                            "x": 0.48447281122207642,
+                            "y": 0.4838157594203949
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4898,16 +4992,16 @@
                     {
                         "name": "Caster 3 PFP",
                         "source_uuid": "f86c0e64-5624-49c7-ac7d-14b0573acab0",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 694.40447998046875,
-                            "y": 215.5272216796875
+                            "x": 522.1884765625,
+                            "y": 205.66166687011719
                         },
                         "scale": {
-                            "x": 0.97108739614486694,
-                            "y": 0.97087228298187256
+                            "x": 0.47569599747657776,
+                            "y": 0.47505095601081848
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4936,16 +5030,16 @@
                     {
                         "name": "Caster 2 PFP",
                         "source_uuid": "76e861ed-08ca-4448-87df-8389ca0123f9",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 458.003662109375,
-                            "y": 219.338134765625
+                            "x": 406.38543701171875,
+                            "y": 207.52639770507812
                         },
                         "scale": {
-                            "x": 0.97108739614486694,
-                            "y": 0.97087228298187256
+                            "x": 0.47569599747657776,
+                            "y": 0.47505095601081848
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4978,12 +5072,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 200.0,
-                            "y": 206.0
+                            "x": 280.0,
+                            "y": 201.0
                         },
                         "scale": {
-                            "x": 0.77545535564422607,
-                            "y": 0.77524125576019287
+                            "x": 0.37986382842063904,
+                            "y": 0.37932807207107544
                         },
                         "align": 5,
                         "bounds_type": 2,
@@ -5016,12 +5110,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 200.0,
-                            "y": 206.0
+                            "x": 280.0,
+                            "y": 201.0
                         },
                         "scale": {
-                            "x": 0.78833693265914917,
-                            "y": 0.7881619930267334
+                            "x": 0.38617402315139771,
+                            "y": 0.38565021753311157
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -5088,7 +5182,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false,
+                            "collapsed": true,
                             "color": "",
                             "color-preset": 3
                         }
@@ -5168,7 +5262,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true,
+                            "collapsed": false,
                             "color": "",
                             "color-preset": 3
                         }
@@ -5258,8 +5352,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": -729.86212158203125,
-                            "y": 510.00003051757812
+                            "x": 197.1380615234375,
+                            "y": 572.0
                         },
                         "scale": {
                             "x": 0.64951169490814209,
@@ -5296,8 +5390,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": -729.86212158203125,
-                            "y": 510.00003051757812
+                            "x": 197.1380615234375,
+                            "y": 572.0
                         },
                         "scale": {
                             "x": 1.2178343534469604,
@@ -5714,7 +5808,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Ignite Overlay main use",
+                        "name": "Gameplay Overlay",
                         "source_uuid": "14087b76-9032-4e95-aa06-f115780c3158",
                         "visible": true,
                         "locked": false,
@@ -5758,8 +5852,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
-                            "y": 19.0
+                            "x": 26.0,
+                            "y": 12.0
                         },
                         "scale": {
                             "x": 0.29145729541778564,
@@ -5828,7 +5922,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "NVDIA Broadcast",
+                        "name": "Local Camera",
                         "source_uuid": "245b8ab4-bffa-4bbe-a50d-ce95cdf9dde2",
                         "visible": true,
                         "locked": false,
@@ -5916,14 +6010,14 @@
                 "libobs.hide_scene_item.Ignite Stats Blue": [],
                 "libobs.show_scene_item.Powered by ignite": [],
                 "libobs.hide_scene_item.Powered by ignite": [],
-                "libobs.show_scene_item.Ignite Overlay main use": [],
-                "libobs.hide_scene_item.Ignite Overlay main use": [],
+                "libobs.show_scene_item.Gameplay Overlay": [],
+                "libobs.hide_scene_item.Gameplay Overlay": [],
                 "libobs.show_scene_item.Region": [],
                 "libobs.hide_scene_item.Region": [],
                 "libobs.show_scene_item.Browser": [],
                 "libobs.hide_scene_item.Browser": [],
-                "libobs.show_scene_item.NVDIA Broadcast": [],
-                "libobs.hide_scene_item.NVDIA Broadcast": []
+                "libobs.show_scene_item.Local Camera": [],
+                "libobs.hide_scene_item.Local Camera": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5941,7 +6035,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 6,
+                "id_counter": 7,
                 "items": [
                     {
                         "name": "Image Slide Show",
@@ -6230,8 +6324,7 @@
             "settings": {
                 "file": "C:/echo-master-league-overlays/assets/text/blue_team_name.txt",
                 "outline": true,
-                "read_from_file": true,
-                "text": "[Placeholder] VS [Placeholder]",
+                "read_from_file": false,
                 "font": {
                     "face": "a Astro Space",
                     "flags": 0,
@@ -6240,7 +6333,8 @@
                 },
                 "align": "center",
                 "color": 4294967295,
-                "outline_color": 4281084972
+                "outline_color": 4281084972,
+                "text": "Entropic Force "
             },
             "mixers": 0,
             "sync": 0,
@@ -6352,7 +6446,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "E:/Users/User/Downloads/Echo Master League Package/Echo master league package/7. Logos&Branding/Placeholder.png"
+                "file": "C:/Users/maver/Downloads/offbeat.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -6378,7 +6472,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "E:/Users/User/Downloads/Echo Master League Package/Echo master league package/7. Logos&Branding/Placeholder.png",
+                "file": "C:/Users/maver/Downloads/offbeat.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -6406,7 +6500,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "E:/Users/User/Downloads/Echo Master League Package/Echo master league package/7. Logos&Branding/Placeholder.png",
+                "file": "C:/Users/maver/Downloads/offbeat.png",
                 "unload": false,
                 "linear_alpha": false
             },
@@ -6570,14 +6664,15 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "Ignite Overlay main use",
+            "name": "Gameplay Overlay",
             "uuid": "14087b76-9032-4e95-aa06-f115780c3158",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
                 "url": "http://localhost:6724/configurable_overlay/",
                 "width": 1920,
-                "height": 1080
+                "height": 1080,
+                "restart_when_active": true
             },
             "mixers": 255,
             "sync": 0,
@@ -6816,6 +6911,74 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 486604803,
+                    "name": "Blur",
+                    "uuid": "093ceaa7-1648-4178-8f89-89cd1ca3855d",
+                    "id": "obs-stream-effects-filter-blur",
+                    "versioned_id": "obs-stream-effects-filter-blur",
+                    "settings": {
+                        "Filter.Blur.SubType": "area",
+                        "Filter.Blur.Angle": 0.0,
+                        "Version": 30064836609,
+                        "Filter.Blur.Size": 15.0
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 486604803,
+            "name": "Instant Replay Video",
+            "uuid": "0d82d52c-bbb8-4039-b80a-3f08acf547c0",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/echo-master-league-overlays/replays/LatestReplay.mp4",
+                "clear_on_media_end": false,
+                "close_when_inactive": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
             "private_settings": {}
         },
         {
@@ -6893,7 +7056,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {}
         },
         {
@@ -6929,7 +7092,39 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
+            "name": "Local Camera",
+            "uuid": "245b8ab4-bffa-4bbe-a50d-ce95cdf9dde2",
+            "id": "dshow_input",
+            "versioned_id": "dshow_input",
+            "settings": {
+                "video_device_id": "Camera (NVIDIA Broadcast):",
+                "last_video_device_id": "Camera (NVIDIA Broadcast):"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
             "private_settings": {}
         },
         {
@@ -7119,38 +7314,6 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "NVDIA Broadcast",
-            "uuid": "245b8ab4-bffa-4bbe-a50d-ce95cdf9dde2",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
-            "settings": {
-                "video_device_id": "Camera (NVIDIA Broadcast):",
-                "last_video_device_id": "Camera (NVIDIA Broadcast):"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
             "name": "Orange Team",
             "uuid": "81c8ee87-571e-4770-935c-8675a1c6281e",
             "id": "text_gdiplus",
@@ -7158,8 +7321,7 @@
             "settings": {
                 "file": "C:/echo-master-league-overlays/assets/text/orange_team_name.txt",
                 "outline": true,
-                "read_from_file": true,
-                "text": "[Placeholder] VS [Placeholder]",
+                "read_from_file": false,
                 "font": {
                     "face": "a Astro Space",
                     "flags": 0,
@@ -7168,7 +7330,8 @@
                 },
                 "align": "center",
                 "color": 4294967295,
-                "outline_color": 4281084972
+                "outline_color": 4281084972,
+                "text": "Not Entropic Force "
             },
             "mixers": 0,
             "sync": 0,
@@ -7182,41 +7345,6 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Player Lists",
-            "uuid": "2d8385cf-97d9-4bdc-bd2c-11349c5dbe1a",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": true,
-                "local_file": "C:/echo-master-league-overlays/overlay/player_lists.html",
-                "width": 1920,
-                "height": 1080
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -7327,11 +7455,38 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "Replay Border",
+            "uuid": "7816820b-9ca6-4cd8-81c1-744fb2d64a79",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/echo-master-league-overlays/assets/images/replay border.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "Round 1 scores",
             "uuid": "11d0a696-250d-495a-8c3e-22eb38b0a7d9",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "text": "14 - 3",
                 "font": {
                     "face": "adineue PRO",
                     "flags": 1,
@@ -7355,8 +7510,7 @@
                 "extents_cx": 100,
                 "extents_cy": 100,
                 "transform": 0,
-                "antialiasing": true,
-                "text": "3 - 23"
+                "antialiasing": true
             },
             "mixers": 0,
             "sync": 0,
@@ -7382,7 +7536,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "6 - 8",
+                "text": "0 - 0",
                 "font": {
                     "face": "adineue PRO",
                     "flags": 1,
@@ -7537,14 +7691,43 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "Setup Text",
+            "uuid": "a8bc0be5-369d-46e9-8303-c7fc63ba5fd6",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "text": "Make sure everything here is correct before starting your stream"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "Stream chat",
             "uuid": "ee7f7167-5c61-493b-81bc-476fd879a742",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
                 "url": "https://www.twitch.tv/popout/echomasterleague/chat?popout=",
-                "height": 400,
-                "width": 400
+                "width": 400,
+                "height": 600,
+                "undo_sname": "Stream chat",
+                "restart_when_active": true,
+                "css": "body { background-color: rgba(0, 0, 0, 0) !important; margin: 0px auto; overflow: hidden; }"
             },
             "mixers": 255,
             "sync": 0,
@@ -7566,7 +7749,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {}
         },
         {
@@ -7652,7 +7835,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "Soon",
+                "text": "4:25",
                 "font": {
                     "face": "a Astro Space",
                     "flags": 0,
